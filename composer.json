@@ -1,0 +1,23 @@
+{
+    "name": "toumoro/tm-masterslave",
+    "type": "typo3-cms-extension",
+    "description": "WraperClass for doctrine MasterSlaveConnection",
+    "authors": [],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Toumoro\\TmMasterslave\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Toumoro\\TmMasterslave\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "tm_masterslave": "self.version",
+        "typo3-ter/tm-masterslave": "self.version"
+    }
+}
