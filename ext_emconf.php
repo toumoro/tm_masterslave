@@ -11,19 +11,19 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'tm_masterslave',
+    'title' => 'Toumoro master slave database tm_masterslave',
     'description' => 'WraperClass for doctrine MasterSlaveConnection',
     'category' => 'plugin',
-    'author' => '',
+    'author' => 'Toumoro',
     'author_email' => '',
     'state' => 'alpha',
     'uploadfolder' => 0,
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '1.0.0',
+    'version' => '9.5'
     'constraints' => [
         'depends' => [
-            'typo3' => '8.7.0-8.7.99',
+            'typo3' => '8.7.0-9.5.99',
         ],
         'conflicts' => [],
         'suggests' => [],
