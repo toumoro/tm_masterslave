@@ -24,6 +24,7 @@ In this example, the configuration is done in AdditionalConfiguration.php
     $GLOBALS['TYPO3_CONF_VARS']['DB']['Connections']['Default']['slaves'] = $slavesDbT3;  
 
 Testing with docker
+
     version: "2.2"
     services:
       db:
