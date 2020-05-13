@@ -4,7 +4,7 @@
     "description": "WraperClass for doctrine MasterSlaveConnection",
     "authors": [],
     "require": {
-        "typo3/cms-core": "^8.7.1 || ^9.5.0"
+        "typo3/cms-core": "^8.7.1 || ^9.5.0 || ^10.4.0"
     },
     "autoload": {
         "psr-4": {
