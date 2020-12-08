@@ -1,3 +1,6 @@
+# TYPO3 Extension tm_masterslave
+This extension is a WraperClass for doctrine MasterSlaveConnection that provides balancing for reads and writes requests.
+
 # Configuration
 
 In this example, the configuration is done in AdditionalConfiguration.php
