@@ -11,11 +11,11 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Toumoro master slave database tm_masterslave',
-    'description' => 'WraperClass for doctrine MasterSlaveConnection',
+    'title' => 'Master slave WraperClass for Doctrine',
+    'description' => 'This extension is a WraperClass for doctrine MasterSlaveConnection that provides balancing for reads and writes requests.',
     'category' => 'plugin',
-    'author' => 'Toumoro',
-    'author_email' => '',
+    'author' => 'Simn OUellet',
+    'author_email' => 'simon.ouellet@toumoro.com',
     'state' => 'alpha',
     'uploadfolder' => 0,
     'createDirs' => '',
