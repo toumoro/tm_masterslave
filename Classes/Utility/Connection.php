@@ -350,7 +350,7 @@ class Connection extends \TYPO3\CMS\Core\Database\Connection {
 
     public function executeQuery($query, array $params = array(), $types = array(), \Doctrine\DBAL\Cache\QueryCacheProfile $qcp = null)
     {
-        if ((stripos($query,"INSERT")!==FALSE) || (stripos($query,"UPDATE")!==FALSE) || (stripos($query,"DELETE ")!==FALSE) || (stripos($query,"TRUNCATE")!==FALSE)) {
+        if ((stripos($query,"INSERT")!==FALSE) || (stripos($query,"UPDATE")!==FALSE) || (stripos($query,"DELETE")!==FALSE) || (stripos($query,"TRUNCATE")!==FALSE)) {
             $this->connect('master');
         } else {
             $this->connect('slave',true);
